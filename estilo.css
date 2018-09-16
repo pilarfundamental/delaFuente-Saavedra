@@ -73,7 +73,7 @@ header{
 
 video{
 	width:100%;
-	height:auto;
+  height:auto;
 	}
 
 #somos{
@@ -82,18 +82,18 @@ video{
 	margin-bottom:2%;
 	}
 
-.dupla{
-	width:46%;
-	padding:2%;
-	float:left;
-	background-color:red;
-	}
+	.dupla{
+		width:46%;
+		padding:2%;
+		float:left;
+		background-color:orange;
+		}
 
 .dupla a{
-	color:rgba(255,0,0,0.75);
-	text-decoration:none;
-	font-weight:700;
-}
+			color:rgba(255,0,0,0.75);
+			text-decoration:none;
+			font-weight:700;
+		}
 
 .dupla a:hover{
 	color:rgba(255,0,0,1);
@@ -103,8 +103,9 @@ video{
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(174, 214, 212,1);
-	background-image:url('media/dupla-01.jpg');
+  background-image:url('media/JO.jpg');
+	background-color:rgba(174, 214, 212,0);
+
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -117,11 +118,19 @@ video{
 
 .primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
 
+#video1
+.videito video{
+	width: 20%
+	height: auto;
+	float: center
+  }
+
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-color:rgba(174, 214, 212,1);
-	background-image:url('media/dupla-02.jpg');
+	background-image: url('media/PILI.jpg');
+	background-color:rgba(174, 214, 212,0);
+
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -147,7 +156,7 @@ video{
 }
 
 .item {
-	width:23%;
+	width:30%;
 	margin:1%;
 	color:#333;
 	background:white;
